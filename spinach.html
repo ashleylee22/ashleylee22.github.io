@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>spinach</title>
+        <link rel = "stylesheet" href = "style.css"/>
+        <link rel="stylesheet" href="https://use.typekit.net/gvd5zbb.css">
+    </head>
+    <body>
+        
+       <a href = "about.html" class="about">About</a>
+
+       
+       <p class="password"></p>
+    
+        <img class = "spinach" src = "images/spinach.png"/>
+        
+        <p class="items_title">Identify the object! If you guess correctly, you will be redirected to the home page after 4 seconds, where you can drag the object to the spot where your most likely used conversation starter is! </p> 
+
+       <!--input box and submit button-->
+    <div class="spinach_container">
+        
+        <form onsubmit="handleSubmit(event)">
+            <input type="text" id="userInput" name="userInput" placeholder="Enter your guess here">
+            <button type="submit">Enter</button>
+        </form>
+        <p id="message" style="display: none;"></p>
+    </div>
+       
+
+        
+    </body>
+    <script src = "item.js"></script>
+    
+</html>
+
+
