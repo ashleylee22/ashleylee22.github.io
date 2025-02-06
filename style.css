@@ -1,0 +1,144 @@
+body{
+    font-family: "instrument-serif", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    user-select: none;
+}
+.graph{
+    position:absolute;
+    top: 13%;
+    left: 10%;
+    width: 80%;
+}
+.title{
+    position: absolute;
+    left: 4%;
+    font-size: 40px;
+    
+}
+.title_rectangle{
+    position: absolute;
+    left: 4%;
+    top: 6%;
+    height: 3%;
+    width: 26%;
+    background-color: rgb(251, 190, 250);
+}
+.about{
+    position: absolute;
+    top: 4.5%;
+    right: 10%;
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+}
+.about_rectangle{
+    position: absolute;
+    right: 7.5%;
+    top: 6%;
+    height: 3%;
+    width: 7%;
+    background-color: rgb(251, 190, 250);
+}
+.reset_button{
+    position: absolute;
+    top: 11%;
+    right: 9.5%;
+    padding: 10px 20px 10px 20px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(226, 77, 129);
+    color: white;
+    border: none;
+    transition: 0.3s;
+    font-family: "instrument-serif", sans-serif;
+}
+
+.reset-button:hover {
+    background-color: rgb(172, 50, 93);
+}
+.description{
+    position: absolute;
+    top: 1%;
+    left: 35%;
+    right: 20%;
+    font-size: 17px;
+}
+/*title_rect{
+    width: 300px;
+    height: 70px;
+    background-color: rgb(242, 179, 241);
+} */ 
+#mydiv{
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+}
+#mydivheader {
+    padding: 5px 15px 5px 15px;
+    cursor: move;
+    z-index: 100;
+    background-color: white;
+    border: 5px solid rgb(226,77,129);
+    color: black;
+    font-size: 35px;
+  }
+  #mydiv img {
+    width: 60px;
+  }
+/* spinach page*/
+.spinach, .p5Canvas{
+    width: 20% !important;
+    height: auto !important;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+}
+.items_title{
+width: 30%;
+font-size: 24px;
+text-align: center;
+position: absolute;
+top: 1%;
+left: 33%;
+
+}
+.spinach_container{
+    position: absolute;
+    top: 60%;
+    left: 28%;
+    text-align: center;
+    width: 40%;
+    height: auto;
+}
+input{
+    font-size: 24px;
+    font-family: "instrument-serif", sans-serif;
+    padding: 5px 10px;
+    border-radius: 0;
+    border: 1px solid black;
+}
+button{
+    margin-left: 10px;
+    padding: 5px 20px;
+    font-size: 25px;
+    border: none;
+    background-color: rgb(226,77,129);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: "instrument-serif", sans-serif;
+}
+button:hover {
+    background-color: rgb(172, 50, 93);
+}
+#message{
+    font-size: 30px;
+}
+/* .spinach_description{
+    position: absolute;
+    top: 1%;
+    left: 35%;
+    right: 20%;
+    text-align: center;
+} */ 

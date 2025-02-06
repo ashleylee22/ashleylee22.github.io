@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Guess the object!</title>
+        <link rel = "stylesheet" href = "style.css"/>
+        <link rel="stylesheet" href="https://use.typekit.net/gvd5zbb.css">
+        <script src="https://cdn.jsdelivr.net/npm/p5@0.7.2/lib/p5.min.js" type="text/javascript"></script>
+    </head>
+    <body>
+
+        
+        <div class="about_rectangle"></div>
+       <a href = "about.html" class="about">about</a>
+
+       
+       <p class="password"></p>
+    
+        <img class = "spinach" src = "images/spinach.png"/>
+        
+        <p class="items_title">Guess the object! If you guess correctly, you will be redirected to the home page after 9 seconds, where you can drag each square to the nearest sentence starter that you would most likely use to respond to the situation.</p> 
+
+       <!--input box and submit button-->
+    <div class="spinach_container">
+        
+        <form onsubmit="handleSubmit(event)">
+            <input type="text" id="userInput" name="userInput" placeholder="Enter your guess here">
+            <button type="submit">Enter</button>
+        </form>
+        <p id="message" style="display: none;"></p>
+    </div>
+       
+
+        
+    </body>
+    <script src = "item.js"></script>
+    
+</html>
+
+
